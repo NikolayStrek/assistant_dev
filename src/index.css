@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Quicksand', 'Roboto', sans-serif;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#react-notification {
+    position: absolute;
+    z-index: 100000;
+}
+
+.button_secondary {
+    padding: 20px 50px;
+    background: #2C4758;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button_primary {
+    padding: 20px 50px;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    background: linear-gradient(90deg, #00AEDE 31.23%, rgba(91, 221, 250, 0.98) 97.46%);
+    box-shadow: 0px 4px 50px rgba(0, 175, 218, 0.2);
+    border-radius: 50px;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
